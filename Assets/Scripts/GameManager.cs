@@ -25,21 +25,22 @@ public class GameManager : MonoBehaviour
     void OnEnable()
     {
         Gem.GemCollected += GemCollected;
+        Enemy.EnemyDied += EnemyDied;
     }
 
     void OnDisable()
     {
         Gem.GemCollected -= GemCollected;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Enemy.EnemyDied -= EnemyDied;
     }
 
     private void GemCollected() 
     {
         Debug.Log("GM: Gem Collected");
+    }
+
+    private void EnemyDied()
+    {
+        Debug.Log("GM: Enemy Died");
     }
 }
