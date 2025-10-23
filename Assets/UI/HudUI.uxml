@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/HudStyles.uss?fileID=7433441132597879392&amp;guid=ccbf71926e743ee4dafcd68f5142801d&amp;type=3#HudStyles" />
+    <ui:VisualElement name="Container" style="flex-grow: 0; flex-direction: row; justify-content: space-between; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: rgba(0, 0, 0, 0.63);">
+        <ui:VisualElement name="Lives" style="flex-grow: 0; flex-direction: row;">
+            <ui:Label text="Lives:" name="LivesLabel" class="hud-label" />
+            <ui:Label text="3" name="LivesValue" class="hud-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Score" style="flex-grow: 0; flex-direction: row;">
+            <ui:Label text="Score:" name="ScoreLabel" class="hud-label" />
+            <ui:Label text="0" name="ScoreValue" class="hud-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

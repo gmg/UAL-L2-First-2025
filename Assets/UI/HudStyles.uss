@@ -1,0 +1,8 @@
+:root {
+}
+
+.hud-label {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/Fonts/PermanentMarker-Regular.ttf?fileID=12800000&guid=862529aa1fab8994f87bfc9d56909eaf&type=3#PermanentMarker-Regular");
+}
